@@ -1,10 +1,10 @@
 ## Description 
 
-- **  Create Data Ware House with Analysis Cube and Analysis Report and mdx query  using Bike Stores  Database**
+- **Create Data Ware House with Analysis Cube and Analysis Report and mdx query  using Bike Stores  Database**
 
 ------------
 ## Team members
--  Abdulrahman Ragab Kabil
+- Abdulrahman Ragab Kabil
 - Adhm Magdy
 - Esraa Ragab
 - Omar Hany
@@ -32,25 +32,25 @@
 ------------
 ### The project implementation Process
 
-1. setup "bikeStores" database on your database engine
-2. create ERD Database Schema
+##### 1. setup "bikeStores" database on your database engine
+##### 2. create ERD Database Schema
 ![Screenshot 2022-05-28 163231](https://user-images.githubusercontent.com/63946776/170831816-00a49269-3806-4cda-847f-e2e1ded8fc24.png)
-3. create DWH star schema based on your goal
+##### 3. create DWH star schema based on your goal
 ![Screenshot 2022-05-28 163254](https://user-images.githubusercontent.com/63946776/170831883-6eb48117-5f4a-4ba1-a4e9-d640c88c7b4a.png)
-4. create New database  "bikestoresDWH" with your star schema tables
-5. start Extracting process **from**"bikeStores"**to** "bikeStoresDWH"
-6. create new Project in VS (**ananlysis services** Project type)  
-7. create your Cupe and hierarchies
+##### 4. create New database  "bikestoresDWH" with your star schema tables
+##### 5. start Extracting process **from**"bikeStores"**to** "bikeStoresDWH"
+##### 6. create new Project in VS (**ananlysis services** Project type)  
+##### 7. create your Cupe and hierarchies
 
 ![Screenshot 2022-05-28 175002](https://user-images.githubusercontent.com/63946776/170832822-4a18c937-1ec7-4a6f-80be-6ffe2761c799.png)
 
 
-8. process Cupe in your **data analysis server** 
-9. open your data analysis server you'll find Cupe and can create MDX queries 
+##### 8. process Cupe in your **data analysis server** 
+##### 9. open your data analysis server you'll find Cupe and can create MDX queries 
 
 ![Screenshot 2022-05-28 175638](https://user-images.githubusercontent.com/63946776/170833062-4a29e7e5-5bb9-49cc-83fc-92290fe54608.png)
 
-10. create report and charts using excel and VS Report and Report Bulider app
+##### 10. create report and charts using excel and VS Report and Report Bulider app
 - **excel Report and Chart**
 ![Screenshot 2022-05-28 175940](https://user-images.githubusercontent.com/63946776/170833167-8766eefa-1812-430c-a01d-7c0758c456a8.png)
 

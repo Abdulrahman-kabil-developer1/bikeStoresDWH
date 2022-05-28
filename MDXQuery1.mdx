@@ -1,0 +1,18 @@
+select {[Order Time].[year].members} on ROWS,
+[Stores Dim].[City].members on COLUMNS
+from [Bike Stores DW Cube]
+where [Measures].[Products Quantity]
+
+
+select {[Measures].[Orders],[Measures].[Products Quantity]} ON COLUMNS,
+CrossJoin([Stores Dim].[Hierarchy].[state].members,[Order Time].[Hierarchy].[Year]) ON ROWS
+FROM [Bike Stores DW Cube]
+
+
+select
+{[Measures].[Orders]} on Columns,
+{[Order Time].[Hierarchy].[Year].&[2017],[Order Time].[Hierarchy].[Year].&[2018]} on Rows
+from
+[Bike Stores DW Cube]
+where {[Customers Dim].[Customer Id].&[2]}
+ 

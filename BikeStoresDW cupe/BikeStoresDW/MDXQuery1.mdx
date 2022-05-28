@@ -1,0 +1,4 @@
+select {[Measures].[Products Quantity]} on columns,
+[Stores Dim].[City].members on rows
+from [Bike Stores DW Cube]
+where [Order Time].[Year].&[2016]

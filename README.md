@@ -1,9 +1,9 @@
-### Description 
+## Description 
 
 - **  Create Data Ware House with Analysis Cube and Analysis Report and mdx query  using Bike Stores  Database**
 
 ------------
-### Team members
+## Team members
 -  Abdulrahman Ragab Kabil
 - Adhm Magdy
 - Esraa Ragab
@@ -13,8 +13,9 @@
 ------------
 
 
-###DWH Goal:-
+## DWH Goal:-
 - We are creating the (“OrdersFact”) star schema for people who want to see the number of orders and quantity for all items ordered by a specific customer, in a specific store, within a specific category at a specific time (month - year)
+
 **example:**
 > customer of id=1 make number of orders in year=2020 that contain products from category_id=2 and from store_id=3 and these number of orders =5 and the quantity of items that he bought in all this orders =30 item
 
